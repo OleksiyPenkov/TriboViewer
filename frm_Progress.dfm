@@ -1,0 +1,47 @@
+object frmProgress: TfrmProgress
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'frmProgress'
+  ClientHeight = 39
+  ClientWidth = 324
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object RzPanel1: TRzPanel
+    AlignWithMargins = True
+    Left = 3
+    Top = 3
+    Width = 318
+    Height = 33
+    Align = alClient
+    BorderOuter = fsFlatRounded
+    Color = clGray
+    TabOrder = 0
+    object Progress: TRzProgressBar
+      AlignWithMargins = True
+      Left = 5
+      Top = 5
+      Width = 308
+      Height = 23
+      Align = alClient
+      BorderWidth = 0
+      InteriorOffset = 0
+      PartsComplete = 0
+      Percent = 0
+      TotalParts = 0
+      ExplicitLeft = 72
+      ExplicitTop = 16
+      ExplicitWidth = 200
+      ExplicitHeight = 24
+    end
+  end
+end
